@@ -1,5 +1,5 @@
-# 互联网 Java 工程师进阶知识完全扫盲
-[![license](https://badgen.net/badge/license/Attribution-NonCommercial%204.0/green)](https://github.com/doocs/advanced-java/blob/master/LICENSE)
+# 互联网 Java 工程师[进阶](https://doocs.github.io/advanced-java/#/advanced)知识完全扫盲
+[![license](https://badgen.net/badge/license/Attribution-ShareAlike%204.0%20International/green)](https://github.com/doocs/advanced-java/blob/master/LICENSE)
 [![original](https://badgen.net/badge/original/%E4%B8%AD%E5%8D%8E%E7%9F%B3%E6%9D%89/orange)](https://github.com/doocs/advanced-java)
 [![open-source-organization](https://badgen.net/badge/organization/join%20us/pink)](https://github.com/doocs/intro)
 [![stars](https://badgen.net/github/stars/doocs/advanced-java)](https://github.com/doocs/advanced-java/stargazers)
@@ -8,7 +8,7 @@
 [![issues](https://badgen.net/github/open-issues/doocs/advanced-java)](https://github.com/doocs/advanced-java/issues)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 
-本系列知识出自中华石杉，内容涵盖[高并发](#高并发架构)、[分布式](#分布式系统)、[高可用](#高可用架构)、[微服务](#微服务架构)等领域知识。我对这部分知识做了一个[系统的整理](https://github.com/doocs/advanced-java/issues/1)，方便学习查阅。配合《大型网站技术架构——李智慧》、《Redis 设计与实现——黄健宏》食用，[效果更佳](https://doocs.github.io/advanced-java/#/offer)。
+本系列知识出自中华石杉，内容涵盖[高并发](#高并发架构)、[分布式](#分布式系统)、[高可用](#高可用架构)、[微服务](#微服务架构)等领域知识。我对这部分知识做了一个系统的整理，方便学习查阅。配合《大型网站技术架构——李智慧》、《Redis 设计与实现——黄健宏》食用，[效果更佳](https://doocs.github.io/advanced-java/#/offer)。
 
 学习之前，先来看看 [Issues 讨论区](https://github.com/doocs/advanced-java/issues/9#issue-394275038)的技术面试官是怎么说的吧。本项目也欢迎所有面试官和面试者都来分享自己的一些想法。
 
@@ -36,7 +36,7 @@
 - [如何保证 Redis 高并发、高可用？Redis 的主从复制原理能介绍一下么？Redis 的哨兵原理能介绍一下么？](/docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
 - [Redis 的持久化有哪几种方式？不同的持久化机制都有什么优缺点？持久化机制具体底层是如何实现的？](/docs/high-concurrency/redis-persistence.md)
 - [Redis 集群模式的工作原理能说一下么？在集群模式下，Redis 的 key 是如何寻址的？分布式寻址都有哪些算法？了解一致性 hash 算法吗？如何动态增加和删除一个节点？](/docs/high-concurrency/redis-cluster.md)
-- [了解什么是 Redis 的雪崩和穿透？Redis 崩溃之后会怎么样？系统该如何应对这种情况？如何处理 Redis 的穿透？](/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
+- [了解什么是 redis 的雪崩、穿透和击穿？Redis 崩溃之后会怎么样？系统该如何应对这种情况？如何处理 Redis 的穿透？](/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
 - [如何保证缓存与数据库的双写一致性？](/docs/high-concurrency/redis-consistence.md)
 - [Redis 的并发竞争问题是什么？如何解决这个问题？了解 Redis 事务的 CAS 方案吗？](/docs/high-concurrency/redis-cas.md)
 - [生产环境中的 Redis 是怎么部署的？](/docs/high-concurrency/redis-production-environment.md)
